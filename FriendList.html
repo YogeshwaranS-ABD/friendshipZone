@@ -6,52 +6,79 @@
 	<title>Friend List</title>
 </head>
 <style type="text/css">
-	table{
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	img{
+		height: 270px;
 	}
 	h1{
-		font-size: 3rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	td{
 		text-align: center;
 	}
+	table{
+		padding: 1px;
+		width: 100%;
+		border: 1px solid black;
+	}
+	td{
+		padding: 2.5px;
+		border: 1px solid black;
+	}
+	th{
+		padding: 1px;
+		border: 1px solid black;
+	}
+	.row{
+		padding: 2px;
+		border: 1px solid black;
 	}
 </style>
 <body>
 	<div>
-		<h1> &#128209 Friend List &#128209 </h1>
+		<img src="Friends.PNG"/>
 	</div>
-	<br>
-	<table>
-		
-		<tr>
-			<th> S. No. </th>
-			<th> Name </th>
-			<th> City/Town </th>
-			<th> About </th>
-		</tr>
-		
+	<div>
+		<h1> Friendship Zone </h1>
+	</div>
 	
-		<tr>
-			<td>1</td>
-			<td>Abdulllah</td>
-			<td>Medavakkam</td>
-			<td>I'm interesed in photograpy</td>
-		</tr>
+	<div>
+		<h2>Details of people...</h2>
+	</div>
 
+	<table>
+		<thead>
 		<tr>
-			<td>2</td>
-			<td>Yogeshwaran</td>
-			<td>Mudichur</td>
-			<td>I'm Interesed in Dancing</td>
+			<th> Name: </th>
+			<th> About </th>
+			<th> Requests </th>
+			<th> Contact </th>
 		</tr>
+		</thead>
 		
+		
+		<tr>
+			<td >Abdulllah</td>
+			<td >Interesed in photograpy</td>
+			<td >
+				<div class="row"><button>Friendship</button>  </div>
+				<div class="row"> <button>Dating</button> </div>
+			</td>
+			<td > 
+				<div class="row">+12 7333 333</div>
+				<div class="row"> <a href="mailto:abcd@email.com">abcd@email.com</a> </div>
+			</td>
+		</tr>
 
+		<tr>
+			<td >Yogeshwaran</td>
+			<td >Interesed in Dancing</td>
+			<td >
+				<div class="row"><button>Friendship</button>  </div>
+				<div class="row"> <button>Dating</button> </div>
+			</td>
+			<td >
+				<div class="row">+12 7333 333</div>
+				<div class="row"> <a href="mailto:xyz@email.com"> xyz@email.com </a> </div>
+			</td>
+		</tr>
 	</table>
+	<h2> <a href="Registration.html">Register to get added in the list </a></h2>
 </body>
 </html>

@@ -5,9 +5,57 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Registration</title>
 </head>
+<style type="text/css">
+	h1{
+		text-align: center;
+	}
+	img{
+		height: 270px;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+</style>
 <body>
 	<form>
-		
+	<div>
+		<img src="Friends.PNG"/>
+	</div>
+	<div>
+		<h1> Friendship Zone </h1>
+	</div>
+	<div>
+		<h2>Add you details toi register</h2>
+	</div>
+	<div>Name : <input type="text" name="Name" /> </div>
+	<br>
+	<div>Email : <input type="email" name="Email" /> </div>
+	<br>
+	<div>Age : <input type="number" name="Age" min="18" /> </div>
+	<br>
+	<div>Birth Day : <input type="date" name="DOB" /> </div>
+	<br>
+	<div>
+		Gender: <input type="radio" name="Gender" id="m" value="Male"> <label for="m">Male</label>
+				<input type="radio" name="Gender" id="f" value="Female"> <label for="f">Female</label>
+	</div>
+	<br>
+	<div> <label for="about">About:</label> <textarea name="About" rows="5" cols="50" id="about"></textarea> </div>
+	<br>
+	<div>Phone : <input type="number" name="Phone" /> </div>
+	<br><br>
+	<div>
+		Interested in :	<input type="checkbox" name="Interest" id="frnd" value="Friendship"> <label for="frnd">Friendship</label>
+						<input type="checkbox" name="Interest" id="dating" value="Dating"> <label for="dating">Dating</label>
+		&ensp;
+		Attachemt : <input type="file" name="Attachment">
+	</div>
+	<br>
+	<div>
+		<button> <a href="welcomeUser.html"> Register </a></button>
+		<button> <a href="welcomeAdmin.html"> Register as Admin </a></button>
+	</div>
 	</form>
 
 </body>
